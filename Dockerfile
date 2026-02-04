@@ -1,4 +1,4 @@
-FROM rockylinux8:9     
+FROM rockylinux:8.9     
 RUN dnf -y install java-21-openjdk  
 RUN mkdir /opt/tomcat
 WORKDIR /opt/tomcat
